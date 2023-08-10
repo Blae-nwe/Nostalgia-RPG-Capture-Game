@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be53e4a90141baf48bff6c5e11956055, type: 3}
+  m_Name: Mutated Eardel
+  m_EditorClassIdentifier: 
+  monsterName: Mutated Eardel
+  description: 
+  frontSprite: {fileID: 182474736, guid: e3f2f58d28bbfa444a3f32a44f1d0152, type: 3}
+  backSprite: {fileID: 182474736, guid: 5a7a0d0139b844043aa8037bb1d531db, type: 3}
+  type1: 13
+  type2: 5
+  maxHP: 100
+  defence: 30
+  attack: 70
+  speed: 55
+  captureRate: 10
+  xpYield: 120
+  growthRate: 2
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 41c12171a0ce7bf4a8b06db3a8cf78dd, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 87de522451f4327489a05abbd359620c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ba30559183060534a9b184c80a5f79df, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: b682a40d4e860d4438d46784e7b22c22, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: d72023c0696b24e40a25028d1a569db1, type: 2}
+    level: 12

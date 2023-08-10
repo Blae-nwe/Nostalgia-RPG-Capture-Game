@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be53e4a90141baf48bff6c5e11956055, type: 3}
+  m_Name: Eardelworm
+  m_EditorClassIdentifier: 
+  monsterName: Eardelworm
+  description: 
+  frontSprite: {fileID: -1649885855, guid: e3f2f58d28bbfa444a3f32a44f1d0152, type: 3}
+  backSprite: {fileID: -1649885855, guid: 5a7a0d0139b844043aa8037bb1d531db, type: 3}
+  type1: 5
+  type2: 0
+  maxHP: 100
+  defence: 70
+  attack: 50
+  speed: 45
+  captureRate: 10
+  xpYield: 110
+  growthRate: 2
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 6d09603fa035d1e47a0abe682224275b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e68e5ef244f0ffa458c813aae2c3fe65, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: ba30559183060534a9b184c80a5f79df, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: d72023c0696b24e40a25028d1a569db1, type: 2}
+    level: 9
